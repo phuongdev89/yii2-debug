@@ -28,6 +28,7 @@
 		}
 	},
 	"scripts" : {
-		"post-install-cmd" : "cp -R ../../yiisoft/yii2-debug/src/views src/"
+		"post-install-cmd" : "cp -R ../../yiisoft/yii2-debug/src/views src/",
+		"post-update-cmd" : "cp -R ../../yiisoft/yii2-debug/src/views src/"
 	}
 }
