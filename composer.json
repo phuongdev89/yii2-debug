@@ -26,9 +26,5 @@
 		"psr-4" : {
 			"phuong17889\\debug\\" : "src/"
 		}
-	},
-	"scripts" : {
-		"post-install-cmd" : "cp -R ../../yiisoft/yii2-debug/src/views src/",
-		"post-update-cmd" : "cp -R ../../yiisoft/yii2-debug/src/views src/"
 	}
 }
