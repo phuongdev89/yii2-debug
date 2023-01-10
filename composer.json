@@ -1,5 +1,5 @@
 {
-	"name" : "phuong17889/yii2-debug",
+	"name" : "phuongdev89/yii2-debug",
 	"description" : "Yii2 Debug",
 	"type" : "yii2-extension",
 	"license" : "MIT",
@@ -9,13 +9,13 @@
 	],
 	"authors" : [
 		{
-			"name" : "Le Phuong",
-			"email" : "phuong17889@gmail.com",
+			"name" : "Phuong Dev",
+			"email" : "phuongdev89@gmail.com",
 			"role" : "Developer"
 		}
 	],
 	"support" : {
-		"source" : "https://github.com/phuong17889/yii2-debug"
+		"source" : "https://github.com/phuongdev89/yii2-debug"
 	},
 	"minimum-stability" : "stable",
 	"require" : {
@@ -24,7 +24,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"phuong17889\\debug\\" : "src/"
+			"phuongdev89\\debug\\" : "src/"
 		}
 	}
 }

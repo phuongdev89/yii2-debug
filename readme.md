@@ -2,7 +2,7 @@
 
 ## Dependent ##
 
-Must have [phpstorm-protocol](https://github.com/phuong17889/phpstorm-protocol) before
+Must have [phpstorm-protocol](https://github.com/phuongdev89/phpstorm-protocol) before
 
 ## Composer ##
 
@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist phuong17889/yii2-debug "@dev"
+php composer.phar require --prefer-dist phuongdev89/yii2-debug "@dev"
 ```
 
 or add
 
 ```
-"phuong17889/yii2-debug": "@dev"
+"phuongdev89/yii2-debug": "@dev"
 ```
 
 to the require section of your `composer.json` file.
@@ -27,7 +27,7 @@ to the require section of your `composer.json` file.
 ```
 'modules' => [
     'debug' => [
-        'class' => 'phuong17889\debug\Module',
+        'class' => 'phuongdev89\debug\Module',
     ], 
 ],
 ```
@@ -35,6 +35,6 @@ or
 ```
 $config['bootstrap'][]      = 'debug';
 $config['modules']['debug'] = [
-    'class' => 'phuong17889\debug\Module',
+    'class' => 'phuongdev89\debug\Module',
 ];
 ```

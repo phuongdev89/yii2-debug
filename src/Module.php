@@ -1,6 +1,6 @@
 <?php
 
-namespace phuong17889\debug;
+namespace phuongdev89\debug;
 class Module extends \yii\debug\Module
 {
 
