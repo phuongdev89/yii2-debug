@@ -26,5 +26,8 @@
 		"psr-4" : {
 			"phuongdev89\\debug\\" : "src/"
 		}
+	},
+	"extra" : {
+		"bootstrap" : "phuongdev89\\debug\\Bootstrap"
 	}
 }
